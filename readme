@@ -38,6 +38,7 @@ print(response['message']['content'])
 %xterm
 
 
+curl -fsSL https://ollama.com/install.sh | sh
 
 
 %xterm
