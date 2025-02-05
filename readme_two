@@ -10,3 +10,6 @@ http://colab.google.com
 
 
 %xterm
+
+
+curl -fsSL https://ollama.com/install.sh | sh
