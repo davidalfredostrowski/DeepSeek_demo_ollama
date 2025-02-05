@@ -28,8 +28,22 @@ response = ollama.chat(model="llama3.2", messages=[{"role": "user", "content": p
 
 response = ollama.chat(model="deepseek-r1", messages=[{"role": "user", "content": prompt}])
 
-
 print(response['message']['content'])
+
+
+
+
+
+
+%xterm
+
+
+
+
+%xterm
+
+ollama run deepseek-r1:1.5b
+
 
 
 
