@@ -41,6 +41,9 @@ print(response['message']['content'])
 curl -fsSL https://ollama.com/install.sh | sh
 
 
+ollama serve
+
+
 %xterm
 
 ollama run deepseek-r1:1.5b
